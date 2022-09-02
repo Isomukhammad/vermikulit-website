@@ -1,0 +1,20 @@
+.div{
+    display: flex;
+    flex-direction: row;
+    gap: .5em;
+
+    .button{
+        cursor: pointer;
+        content: '';
+        background-color: #b6b6b6;
+        padding: .3em;
+        gap: 1em;
+        border-radius: 50%;
+        transition: scale .5s;
+    }
+
+    .active {
+        background-color: black;
+        scale: 1.5;
+    }
+}
