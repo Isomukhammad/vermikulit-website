@@ -39,11 +39,12 @@ const Carousel = ({info}) => {
                 priority = "true"
             /> */}
             <div className = {styles.imagesWrap}>
-                <div className = {styles.images}>
+                <div className = {styles.images}>                
                 {
                     info.map(img => (
                         <img 
                             className = {number != img.id ? `${styles.img}` : null}
+                            key = {img.id}
                             src = {img.image}
                             height = '400px' 
                             width = '1000px'
@@ -52,9 +53,8 @@ const Carousel = ({info}) => {
                             placeholder="blurDataURL"
                             priority = "true"
                         />
-                        
-                    ))
-                }
+                        ))
+                    }
                 </div>
             </div>
             <div className = {styles.information}>
