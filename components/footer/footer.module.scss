@@ -1,0 +1,32 @@
+.div{
+    background-color: #29343d;
+    color: #67747d;
+
+    .links{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+
+        a{
+            padding: 2em;
+            border: 1px solid #414a51;
+        }
+    }
+
+    .info{
+        display: flex;
+        flex-direction: row;
+        margin: 2em;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            margin-right: 2em;
+        }
+
+        p{
+            padding-left: 2em;
+            border-left: 1px solid #414a51;
+        }
+    }
+}

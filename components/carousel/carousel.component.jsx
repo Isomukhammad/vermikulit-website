@@ -14,7 +14,7 @@ const Carousel = ({info}) => {
             } else {
                 setNumber(0)
             }
-        }, 5000)
+        }, 10000)
 
         return () => clearInterval(interval);
     })
@@ -42,9 +42,9 @@ const Carousel = ({info}) => {
                 <div className = {styles.images}>                
                 {
                     info.map(img => (
-                        <img 
-                            className = {number != img.id ? `${styles.img}` : null}
-                            key = {img.id}
+                        <div className = {`${number != img.id ? `${styles.img}` : null} ${styles.opacity}`}
+                        key = {img.id}>
+                        <Image 
                             src = {img.image}
                             height = '400px' 
                             width = '1000px'
@@ -52,7 +52,9 @@ const Carousel = ({info}) => {
                             objectFit="contain"
                             placeholder="blurDataURL"
                             priority = "true"
+                            style = {{borderRadius: '4em'}}
                         />
+                        </div>
                         ))
                     }
                 </div>

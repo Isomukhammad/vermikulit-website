@@ -1,0 +1,17 @@
+.div{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.main {
+    a {
+        &:hover{
+            text-decoration: underline;
+        }
+
+        &:active{
+            color: black;
+        }
+    }
+}

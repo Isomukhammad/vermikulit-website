@@ -64,52 +64,79 @@
         {
             "key": 1,
             "title": "Изделия из натуральной слюды",
-            "link": "izdeliya-iz-naturalnoy-slyudy"
+            "link": "/slyuda/izdeliya-iz-naturalnoy-slyudy"
         }, 
         {
             "key": 2,
             "title": "Электронагревательные элементы",
-            "link": "nagrevatelnye-elementy"
+            "link": "/slyuda/nagrevatelnye-elementy"
         }, 
         {
             "key": 3,
             "title": "Слюда дроблёная флогопит",
-            "link": "slyuda-droblenaya-flogopit"
+            "link": "/slyuda/slyuda-droblenaya-flogopit"
         }, 
         {
             "key": 4,
             "title": "Слюда молотая флогопит",
-            "link": "slyuda-molotaya-flogopit"
+            "link": "/slyuda/slyuda-molotaya-flogopit"
         }, 
         {
             "key": 5,
             "title": "Слюда флогопит сырьё",
-            "link": "slyuda-fogopit-sirye"
+            "link": "/slyuda/slyuda-fogopit-sirye"
         }
     ]
     }],
+    
     "vermikulit": [{
         "title": "Вермикулит",
         "categories": [
         {
             "key": 1,
             "title": "Вермикулит в строительстве",
-            "link": "vermikulit-v-stroitelstve"
+            "link": "/vermikulit/vermikulit-v-stroitelstve"
         },
         {
             "key": 2,
             "title": "Вермикулит в металлургии",
-            "link": "vermikulit-v-stroitelstve"
+            "link": "/vermikulit/vermikulit-v-stroitelstve"
         },
         {
             "key": 3,
             "title": "Вермикулит в сельском хозяйстве",
-            "link": "vermikulit-v-selskom-hozyaystve"
+            "link": "/vermikulit/vermikulit-v-selskom-hozyaystve"
         },
         {
             "key": 4,
             "title": "Вермикулит в промышленном растениеводстве",
-            "link": "vermikulit-v-tsvetovodstve"
+            "link": "/vermikulit/vermikulit-v-tsvetovodstve"
+        }
+        ]       
+    }],
+
+    "agrovermikulit": [{
+        "title": "Агровермикулит",
+        "categories": [
+        {
+            "key": 1,
+            "title": "Вермикулит в строительстве",
+            "link": "/agrovermikulit/vermikulit-v-stroitelstve"
+        },
+        {
+            "key": 2,
+            "title": "Вермикулит в металлургии",
+            "link": "/agrovermikulit/vermikulit-v-stroitelstve"
+        },
+        {
+            "key": 3,
+            "title": "Вермикулит в сельском хозяйстве",
+            "link": "/agrovermikulit/vermikulit-v-selskom-hozyaystve"
+        },
+        {
+            "key": 4,
+            "title": "Вермикулит в промышленном растениеводстве",
+            "link": "/agrovermikulit/vermikulit-v-tsvetovodstve"
         }
         ]       
     }]
