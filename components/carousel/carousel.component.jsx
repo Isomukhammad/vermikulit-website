@@ -29,14 +29,34 @@ const Carousel = ({info}) => {
 
     return(
         <div className={styles.div}>
-            <Image 
+            {/* <Image 
                 src = {info[number].image}
                 height = '400px' 
                 width = '1000px'
                 alt = 'Carousel photo'
                 objectFit="contain"
                 placeholder="blurDataURL"
-            />
+                priority = "true"
+            /> */}
+            <div className = {styles.imagesWrap}>
+                <div className = {styles.images}>
+                {
+                    info.map(img => (
+                        <img 
+                            className = {number != img.id ? `${styles.img}` : null}
+                            src = {img.image}
+                            height = '400px' 
+                            width = '1000px'
+                            alt = 'Carousel photo'
+                            objectFit="contain"
+                            placeholder="blurDataURL"
+                            priority = "true"
+                        />
+                        
+                    ))
+                }
+                </div>
+            </div>
             <div className = {styles.information}>
                 <div className = {styles.title}>{info[number].title}</div>
                 <div className = {styles.description}>{info[number].description}</div>

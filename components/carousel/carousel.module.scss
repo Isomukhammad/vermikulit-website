@@ -1,4 +1,28 @@
 .div{
+    .imagesWrap{
+        width: 1000px;
+        height: 400px;
+        position: relative;
+
+        .images{
+            position: relative;
+            width: 1000px;
+            height: 400px;
+            overflow: hidden;
+
+            img{
+                width: 1000px;
+                height: 400px;
+                position: absolute;
+                transition: all ease 1s;
+            }
+
+            .img{
+                opacity: 0;
+            }
+        }
+    }
+
     .information{
         position: absolute;
         padding: 3em;
