@@ -77,7 +77,7 @@ const Agrovermikulit = () => {
             </div>
 
             <TextImage
-                image = {'/assets/images/agrovermikulit/agrovermikulit-ad4.png'}
+                image = '/assets/images/agrovermikulit/agrovermikulit-ad4.png'
                 heightValue = {'300'}
                 description = {'Вермикулита много не бывает!'}
             />
