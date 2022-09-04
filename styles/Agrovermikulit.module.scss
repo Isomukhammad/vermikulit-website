@@ -1,0 +1,32 @@
+.container{
+    margin: 7em 0 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .products{
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        margin: 2em 0;
+
+        .list{
+            border-radius: 1em;
+            width: 800px;
+            height: fit-content;
+            background-color: #127ad1;
+            color: white;
+            padding: 1em;
+        }
+    }
+
+    .categories{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .description{
+            width: 70%;
+        }
+    }
+}

@@ -2,7 +2,6 @@ import Link from 'next/link';
 import styles from './products.module.scss';
 
 const Products = ({info, styleName}) => {
-    console.log(info);
     return(
         <div className = {`${styles.div} 
             ${styleName == "main" ? styles.main : null}

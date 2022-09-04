@@ -1,0 +1,164 @@
+{
+    "agrovermikulit": [{
+        "id": 0,
+        "agrovermikulitCarousel": [{
+            "id": 0,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/agrovermikulit-carousel/1.png",
+            "link": "",
+            "button": ""
+        },
+        {
+            "id": 1,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/agrovermikulit-carousel/2.jpg",
+            "link": "",
+            "button": ""
+        }, 
+        {
+            "id": 2,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/agrovermikulit-carousel/3.jpg",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 3,
+            "title": "Агровермикулит ВЕРМИСИЛ",
+            "description": "для садовых цветов",
+            "image": "/assets/images/agrovermikulit-carousel/4.png",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 4,
+            "title": "Вермикулит",
+            "description": "в животноводстве и птицеводстве",
+            "image": "/assets/images/agrovermikulit-carousel/5.png",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 5,
+            "title": "Агровермикулит ВЕРМИСИЛ",
+            "description": "для садоводства",
+            "image": "/assets/images/agrovermikulit-carousel/6.png",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 6,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/agrovermikulit-carousel/7.png",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 7,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/agrovermikulit-carousel/8.png",
+            "link": "",
+            "button": ""
+        },
+        {
+            "id": 8,
+            "title": "Агровермикулит ВЕРМИСИЛ",
+            "description": "для гидропоники",
+            "image": "/assets/images/agrovermikulit-carousel/9.png",
+            "link": "",
+            "button": ""
+        },
+        {
+            "id": 9,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/agrovermikulit-carousel/10.png",
+            "link": "",
+            "button": ""
+        },
+        {
+            "id": 10,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/agrovermikulit-carousel/11.png",
+            "link": "",
+            "button": ""
+        },
+        {
+            "id": 11,
+            "title": "Агровермикулит ВЕРМИСИЛ",
+            "description": "для хранения",
+            "image": "/assets/images/agrovermikulit-carousel/12.png",
+            "link": "",
+            "button": ""
+        },
+        {
+            "id": 12,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/agrovermikulit-carousel/13.png",
+            "link": "",
+            "button": ""
+        }
+    ]
+    },
+    {
+        "id": 1, 
+        "productsInfo": [{
+            "id": 0,
+            "title": "Для сада",
+            "description": "для мульчирования и удобрения почв, удержания влаги",
+            "image": "/assets/images/agrovermikulit/logo0.jpg",
+            "link": "/agrovermikulit/"
+        },
+        {
+            "id": 1,
+            "title": "Для цветов",
+            "description": "стабилизатор и разрыхлитель почвы, носитель микроэлементов",
+            "image": "/assets/images/agrovermikulit/logo1.jpg",
+            "link": "/agrovermikulit/"
+        },
+        {
+            "id": 2,
+            "title": "Для цветов",
+            "description": "содержит натрий, магний, калий, является накопителем питательных веществ и витаминов",
+            "image": "/assets/images/agrovermikulit/logo2.jpg",
+            "link": "/agrovermikulit/"
+        },
+        {
+            "id": 3,
+            "title": "Для рассады",
+            "description": "предотвращает пересыхание грунта, убирает излишки влаги, разрыхлитель почвы, источник микроэлементов",
+            "image": "/assets/images/agrovermikulit/logo3.jpg",
+            "link": "/agrovermikulit/"
+        },
+        {
+            "id": 4,
+            "title": "Для гидропоники",
+            "description": "заменяет среду для гидропоники, подходит в качестве среды для выращивания рассады",
+            "image": "/assets/images/agrovermikulit/logo4.jpg",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        },
+        {
+            "id": 5,
+            "title": "Для хранения",
+            "description": "среда для хранения и транспортировки овощей и фруктов, а также посадочного материала: семян, луковиц, клубней, корневищ",
+            "image": "/assets/images/agrovermikulit/logo5.jpg",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        },
+        {
+            "id": 6,
+            "title": "Для комнатных растений",
+            "description": "улучшает качество почвосмесей, питает растения микроэлементами, предотвращает пересыхание почвы и образование плесени на поверхности грунта",
+            "image": "/assets/images/agrovermikulit/logo6.png",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        }
+    ]
+    }
+]
+}
