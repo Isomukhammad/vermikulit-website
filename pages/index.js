@@ -79,13 +79,14 @@ export default function Home() {
       <div className = {styles.description}>
         <Image
           src = '/assets/images/main/main-ad1.png'
-          width = '1000'
-          height = '611'
+          width = '900'
+          // height = '611'
+          height= '600'
           alt = 'Carousel photo'
-          objectFit="contain"
+          objectFit="cover"
           placeholder="blurDataURL"
           priority = "true"
-          style = {{borderRadius: '1em'}}
+          // style = {{borderRadius: '1em'}}
         />
 
         <p>
