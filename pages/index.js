@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image';
 
 import Data from './api/data.json';
+import Vermikulit from './api/vermikulit.json';
+import Agrovermikulit from './api/agrovermikulit.json';
 
 import Carousel from '../components/carousel/carousel.component'
 import Products from '../components/products/products.component';
@@ -38,7 +40,7 @@ export default function Home() {
             />
           </div>
           <h3>Слюда</h3>
-          <Products info = {Data.slyuda[0].categories} styleName = 'main'/> 
+          <Products info={Data.slyuda[0].categories}/>
         </div>
 
         <div>
@@ -54,7 +56,7 @@ export default function Home() {
             />
           </div>
           <h3>Вермикулит</h3>
-          <Products info = {Data.vermikulit[0].categories} styleName = 'main'/> 
+          <Products info = {Vermikulit.vermikulit[1].productsInfo} styleName = {'product-list'}/>
         </div>
 
         <div>
@@ -70,7 +72,7 @@ export default function Home() {
             />
           </div>
           <h3>Агровермикулит</h3>
-          <Products info = {Data.agrovermikulit[0].categories} styleName = 'main'/> 
+          <Products info = {Agrovermikulit.agrovermikulit[1].productsInfo} styleName = {'product-list'}/>
         </div>
       </div>
 

@@ -5,13 +5,12 @@ import styles from './text-image.module.scss';
 const TextImage = ({image, description, heightValue}) => {
     return(
         <div className = {styles.div}>
-                <Image
+                <img
                     src = {image}
                     width = '1000px'
                     height= {`${heightValue}`}
                     alt = 'Information photo'
                     objectFit="contain"
-                    placeholder="blurDataURL"
                     style = {{borderRadius: '1em'}}
                 />
 
