@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
       <meta id="viewport" name="viewport" content="width=1000px"/>
       </Head>
       <Navbar/>
-      <Component {...pageProps}/>
+      <Component {...pageProps} />
     </div>
   )
 }

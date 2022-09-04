@@ -4,12 +4,12 @@ import ImageButtons from "../image-buttons/image-buttons.component";
 
 import styles from './carousel.module.scss';
 
-const Carousel = ({info}) => {
+const Carousel = ({info, length}) => {
     const [number, setNumber] = useState(0);
 
     useEffect(() => {
         const interval = setInterval(() => {
-            if(number != 6){
+            if(number != length){
                 setNumber(number + 1);
             } else {
                 setNumber(0)
@@ -29,30 +29,21 @@ const Carousel = ({info}) => {
 
     return(
         <div className={styles.div}>
-            {/* <Image 
-                src = {info[number].image}
-                height = '400px' 
-                width = '1000px'
-                alt = 'Carousel photo'
-                objectFit="contain"
-                placeholder="blurDataURL"
-                priority = "true"
-            /> */}
             <div className = {styles.imagesWrap}>
                 <div className = {styles.images}>                
                 {
                     info.map(img => (
                         <div className = {`${number != img.id ? `${styles.img}` : null} ${styles.opacity}`}
                         key = {img.id}>
-                        <Image 
+                        <img 
                             src = {img.image}
-                            height = '400px' 
-                            width = '1000px'
+                            height = '400' 
+                            width = '1000'
                             alt = 'Carousel photo'
                             objectFit="contain"
                             placeholder="blurDataURL"
                             priority = "true"
-                            style = {{borderRadius: '4em'}}
+                            style = {{borderRadius: '1em'}}
                         />
                         </div>
                         ))

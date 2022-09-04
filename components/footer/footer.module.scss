@@ -1,6 +1,8 @@
 .div{
     background-color: #29343d;
     color: #67747d;
+    display: flex;
+    flex-direction: column;
 
     .links{
         display: grid;
@@ -28,5 +30,10 @@
             padding-left: 2em;
             border-left: 1px solid #414a51;
         }
+    }
+
+    .developer{
+        margin: 2em;
+        align-self: flex-end;
     }
 }

@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
 
       <div>
-        <Carousel info = {Data.main[0].mainCarousel}/>
+        <Carousel info = {Data.main[0].mainCarousel} length = {6}/>
       </div>
 
       <h1 className = {styles.title}>Наша продукция</h1>
@@ -77,13 +77,13 @@ export default function Home() {
       <div className = {styles.description}>
         <Image
           src = '/assets/images/main/main-ad1.png'
-          width = '1000px'
-          height = '611px'
+          width = '1000'
+          height = '611'
           alt = 'Carousel photo'
           objectFit="contain"
           placeholder="blurDataURL"
           priority = "true"
-          style = {{borderRadius: '4em'}}
+          style = {{borderRadius: '1em'}}
         />
 
         <p>

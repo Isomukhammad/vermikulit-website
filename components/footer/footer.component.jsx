@@ -26,6 +26,10 @@ const Footer = () => {
                 </div>
                 <p>Санкт-Петербургская Слюдяная фабрика — производитель электроизоляционных материалов и изделий на основе слюды</p>
             </div>
+
+            <div className={styles.developer}>
+                Website is created by <span><Link href = 'https://github.com/Isomukhammad'>ISkO</Link></span>
+            </div>
         </div>
     )
 }

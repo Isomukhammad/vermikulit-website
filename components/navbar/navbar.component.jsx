@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 
 import NavbarDropdown from '../navbar-dropdown/navbar-dropdown.component';
@@ -10,20 +11,32 @@ const Navbar = () => {
     const [category, setCategory] = useState('');
 
     return(
+        <>
         <div className={styles.navbar}>
-            <Image src = '/assets/logo/logo.png' width='134px' height = '35px'/>
+            <Link href = '/'>
+                <Image 
+                    src = '/assets/logo/logo.png' 
+                    width='134px' 
+                    height = '35px' 
+                    style = {{cursor: 'pointer'}}
+                />
+            </Link>
             <div className = {styles.categories}>
-                <div 
+                <Link href = '/slyuda'
                     onMouseOver={(e) => {setDropdown(true)}}
-                >Слюда</div>
-                <div>Слюдопасты</div>
-                <div>Вермикулит</div>
-                <div>Агровермикулит</div>
+                >Слюда</Link>
+                <Link href = '/slyudoplasty'>Слюдопасты</Link>
+                <Link href = '/vermikulit'>Вермикулит</Link>
+                <Link href = '/agrovermikulit'>Агровермикулит</Link>
             </div>
             {
                 dropdown == true ? <NavbarDropdown category = {category}/> : null
             }
         </div>
+
+        <div className={styles.border}>
+        </div>
+        </>
     )
 }
 

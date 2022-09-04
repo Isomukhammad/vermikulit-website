@@ -1,0 +1,150 @@
+{
+    "slyuda": [{
+        "id": 0,
+        "slyudaCarousel": [{
+            "id": 0,
+            "title": "Слюдяная фабрика",
+            "description": "Изделия на основе слюды для электроизоляции",
+            "image": "/assets/images/slyuda-carousel/1.jpg",
+            "link": "",
+            "button": ""
+        },
+        {
+            "id": 1,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/2.jpg",
+            "link": "",
+            "button": ""
+        }, 
+        {
+            "id": 2,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/3.jpg",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 3,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/4.jpg",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 4,
+            "title": "Натуральная слюда",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/5.jpg",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 5,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/6.jpg",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 6,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/7.png",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 7,
+            "title": "Слюдяные бумаги",
+            "description": "и изделия из неё",
+            "image": "/assets/images/slyuda-carousel/8.jpg",
+            "link": "",
+            "button": ""
+        },    
+        {
+            "id": 8,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/9.png",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 9,
+            "title": "Слюдопласты",
+            "description": "Первое предприятие по производству слюдопластов в России",
+            "image": "/assets/images/slyuda-carousel/10.jpg",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 10,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/11.png",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 11,
+            "title": "90 лет опыта работы со слюдой!",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/12.jpg",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 12,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/13.jpg",
+            "link": "",
+            "button": ""
+        },
+        {
+            "id": 13,
+            "title": "Слюдопласты и слюдоленты",
+            "description": "термостойкие и дугостойкие",
+            "image": "/assets/images/slyuda-carousel/14.jpg",
+            "link": "",
+            "button": ""
+        },
+        {
+            "id": 14,
+            "title": "Слюда молотая и дроблёная",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/15.jpg",
+            "link": "",
+            "button": ""
+        },
+        {
+            "id": 15,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/16.png",
+            "link": "",
+            "button": ""
+        },    
+        {
+            "id": 16,
+            "title": "Электронагревательные элементы",
+            "description": "для промышленных и бытовых приборов",
+            "image": "/assets/images/slyuda-carousel/17.png",
+            "link": "",
+            "button": ""
+        }, 
+        {
+            "id": 17,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/slyuda-carousel/18.png",
+            "link": "",
+            "button": ""
+        }
+    ]
+    }]
+}
