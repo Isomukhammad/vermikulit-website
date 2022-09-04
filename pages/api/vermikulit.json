@@ -1,0 +1,159 @@
+{
+    "vermikulit": [{
+        "id": 0,
+        "vermikulitCarousel": [{
+            "id": 0,
+            "title": "Вермикулит вспученный",
+            "description": "Производитель Слюдяная фабрика",
+            "image": "/assets/images/vermikulit-carousel/1.png",
+            "link": "",
+            "button": ""
+        },
+        {
+            "id": 1,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/vermikulit-carousel/2.jpg",
+            "link": "",
+            "button": ""
+        }, 
+        {
+            "id": 2,
+            "title": "Вермикулит",
+            "description": "в строительстве",
+            "image": "/assets/images/vermikulit-carousel/3.jpg",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 3,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/vermikulit-carousel/4.jpg",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 4,
+            "title": "Вермикулит",
+            "description": "в животноводстве и птицеводстве",
+            "image": "/assets/images/vermikulit-carousel/5.jpg",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 5,
+            "title": "Вспученный вермикулит",
+            "description": "на службе у человека",
+            "image": "/assets/images/vermikulit-carousel/6.jpg",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 6,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/vermikulit-carousel/7.png",
+            "link": "",
+            "button": ""
+        },   
+        {
+            "id": 7,
+            "title": "",
+            "description": "",
+            "image": "/assets/images/vermikulit-carousel/8.jpg",
+            "link": "",
+            "button": ""
+        }
+    ]
+    },
+    {
+        "id": 1, 
+        "productsInfo": [{
+            "id": 0,
+            "title": "Вермикулит в строительстве",
+            "description": "Засыпная теплоизоляция межстенных проемов, перекрытий, щелей, оконных рам, крыш и наполнитель в бетоны, штукатурки, плиты и блоки",
+            "image": "/assets/images/vermikulit/logo0.jpg",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        },
+        {
+            "id": 1,
+            "title": "Вермикулит в металлургии",
+            "description": "для теплоизоляции прибыльной части слитков при розливе жидкого металла, футеровки печей и сталеразливочных ковшей, теплоизоляции оборудования",
+            "image": "/assets/images/vermikulit/logo1.jpg",
+            "link": "/vermikulit/vermikulit-v-metallurgii/"
+        },
+        {
+            "id": 2,
+            "title": "Вермикулит в сельском хозяйстве",
+            "description": "стабилизатор почв, носитель минеральных удобрений, среда для хранения посадочного материала, овощей и фруктов",
+            "image": "/assets/images/vermikulit/logo2.jpg",
+            "link": "/vermikulit/vermikulit-v-selskom-hozyastve/"
+        },
+        {
+            "id": 3,
+            "title": "Вермикулит в промышленном растениеводстве",
+            "description": "Вермикулит в промышленном растениеводстве стабилизатор почвы, носитель микро- и макроэлементов, среда для хранения луковиц, семян и посадочного материала",
+            "image": "/assets/images/vermikulit/logo3.jpg",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        },
+        {
+            "id": 4,
+            "title": "Вермикулит в животноводстве",
+            "description": "основной компонент корма, сорбционная добавка, носитель питательных и лекарственных веществ в кормах, подстилочный материал для животных и птицы",
+            "image": "/assets/images/vermikulit/logo4.jpg",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        },
+        {
+            "id": 5,
+            "title": "Вермикулит в экологии",
+            "description": "сорбент для очистки промышленных и бытовых сточных вод, сорбент нефтепродуктов и других органических жидкостей с твердых поверхностей и поверхностей водоемов, сорбент микотоксинов для улавливания ядовитых газов, дыма",
+            "image": "/assets/images/vermikulit/logo5.jpg",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        },
+        {
+            "id": 6,
+            "title": "Вермикулит в химической промышленности",
+            "description": "среда для хранения и транспортировки химических веществ, активных жидкостей и кислот, сорбент микотоксинов для улавливания ядовитых газов и дыма, наполнитель пластмасс, резины, лаков и красок",
+            "image": "/assets/images/vermikulit/logo6.jpg",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        },
+        {
+            "id": 7,
+            "title": "Вермикулит в автомобилестроении ",
+            "description": "компонент тормозных колодок, других фрикционных прокладок, резины, лаков и красок",
+            "image": "/assets/images/vermikulit/logo7.jpg",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        },
+        {
+            "id": 8,
+            "title": "Вермикулит в кораблестроении",
+            "description": "засыпная теплоизоляция перекрытий, компонент огнезащитных плит и мастик",
+            "image": "/assets/images/vermikulit/logo8.jpg",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        },
+        {
+            "id": 9,
+            "title": "Вермикулит в упаковке",
+            "description": "Вермикулит в упаковке среда для хранения и транспортировки посуды, стекла, жидкостей в стеклянной и другой таре, химических веществ, активных жидкостей и кислот, среда для хранения и транспортировки посадочного материала, овощей и фруктов",
+            "image": "/assets/images/vermikulit/logo9.jpg",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        },
+        {
+            "id": 10,
+            "title": "Вермикулит в специальных составах",
+            "description": "компонент обоев, теплоизоляционных мастик, резины, линолеума, бакелитовых изделий, пластиковых покрытий, электроизоляционных мастик",
+            "image": "/assets/images/vermikulit/logo10.jpg",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        },
+        {
+            "id": 11,
+            "title": "Вермикулит в парфюмерии и косметике",
+            "description": "Вермикулит в парфюмерии и косметике носитель запаха, добавка в мыло и косметику",
+            "image": "/assets/images/vermikulit/logo11.jpg",
+            "link": "/vermikulit/vermikulit-v-stroitelstve/"
+        }
+    ]
+    }
+]
+}

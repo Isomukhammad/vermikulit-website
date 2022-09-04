@@ -12,29 +12,28 @@ const Navbar = () => {
 
     return(
         <>
-        <div className={styles.navbar}>
-            <Link href = '/'>
-                <Image 
-                    src = '/assets/logo/logo.png' 
-                    width='134px' 
-                    height = '35px' 
-                    style = {{cursor: 'pointer'}}
-                />
-            </Link>
-            <div className = {styles.categories}>
-                <Link href = '/slyuda'
-                    onMouseOver={(e) => {setDropdown(true)}}
-                >Слюда</Link>
-                <Link href = '/slyudoplasty'>Слюдопасты</Link>
-                <Link href = '/vermikulit'>Вермикулит</Link>
-                <Link href = '/agrovermikulit'>Агровермикулит</Link>
+        <div className = {styles.container}>
+            <div className={styles.navbar}>
+                <Link href = '/'>
+                    <Image 
+                        src = '/assets/logo/logo.png' 
+                        width='134px' 
+                        height = '35px' 
+                        style = {{cursor: 'pointer'}}
+                    />
+                </Link>
+                <div className = {styles.categories}>
+                    <Link href = '/slyuda'
+                        onMouseOver={(e) => {setDropdown(true)}}
+                    >Слюда</Link>
+                    <Link href = '/slyudopasty'>Слюдопасты</Link>
+                    <Link href = '/vermikulit'>Вермикулит</Link>
+                    <Link href = '/agrovermikulit'>Агровермикулит</Link>
+                </div>
+                {
+                    dropdown == true ? <NavbarDropdown category = {category}/> : null
+                }
             </div>
-            {
-                dropdown == true ? <NavbarDropdown category = {category}/> : null
-            }
-        </div>
-
-        <div className={styles.border}>
         </div>
         </>
     )

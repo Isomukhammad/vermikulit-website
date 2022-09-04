@@ -7,9 +7,9 @@ const Footer = () => {
         <div className={styles.div}>
             <div className={styles.links}>
                 <Link href = '/slyuda/'>Слюда</Link>
-                <Link href = '/slyuda/'>Слюдопласты</Link>
-                <Link href = '/slyuda/'>Вермикулит</Link>
-                <Link href = '/slyuda/'>Агровермикулит</Link>
+                <Link href = '/slyudoplasty/'>Слюдопласты</Link>
+                <Link href = '/vermikulit/'>Вермикулит</Link>
+                <Link href = '/agrovermikulit/'>Агровермикулит</Link>
             </div>
 
             <div className={styles.info}>

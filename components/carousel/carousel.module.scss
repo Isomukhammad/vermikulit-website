@@ -2,18 +2,14 @@
     position: relative;
     .imagesWrap{
         width: 1000px;
-        height: 400px;
         position: relative;
 
         .images{
             position: relative;
             width: 1000px;
-            height: 400px;
             overflow: hidden;
 
             .opacity {
-                width: 1000px;
-                height: 400px;
                 position: absolute;
                 transition: all linear 1s;
             }

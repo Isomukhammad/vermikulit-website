@@ -1,0 +1,48 @@
+{
+    "slyudoplasty": [{
+        "id": 0,
+        "productsInfo":[{
+            "id": 0,
+            "title": "Слюдобумаги",
+            "description": "Гибкая изоляция, основа производства слюдолент и слюдопластов",
+            "image": "/assets/images/vermikulit/logo0.jpg",
+            "link": "/slyudoplasty/slyudobumagi/"
+        }, {
+            "id": 1,
+            "title": "Слюдопласты",
+            "description": "Слюдопласты формовочные, коллекторные, конструкционные, гибкие для электроизоляции",
+            "image": "/assets/images/vermikulit/logo1.jpg",
+            "link": "/slyudoplasty/slyudobumagi/"
+        }, {
+            "id": 2,
+            "title": "Слюдоленты",
+            "description": "Гибкая электроизоляция, обмотка кабелей",
+            "image": "/assets/images/vermikulit/logo2.jpg",
+            "link": "/slyudoplasty/slyudobumagi/"
+        }, {
+            "id": 3,
+            "title": "Изделия из слюдопластов",
+            "description": "Трубки, втулки, корпуса электронагревателей",
+            "image": "/assets/images/vermikulit/logo3.jpg",
+            "link": "/slyudoplasty/slyudobumagi/"
+        }, {
+            "id": 4,
+            "title": "Дугостойкие материалы",
+            "description": "Слюдопласты для дугогасительных камер и других элементов",
+            "image": "/assets/images/vermikulit/logo4.jpg",
+            "link": "/slyudoplasty/slyudobumagi/"
+        }, {
+            "id": 5,
+            "title": "Термостойские материалы",
+            "description": "Слюдопласты для электроизоляции при высоких температурах",
+            "image": "/assets/images/vermikulit/logo5.jpg",
+            "link": "/slyudoplasty/slyudobumagi/"
+        }, {
+            "id": 6,
+            "title": "Слюдолента для огнестойкого кабеля",
+            "description": "Гибкая слюдяная обмотка – надежная защита кабеля от огня",
+            "image": "/assets/images/vermikulit/logo6.jpg",
+            "link": "/slyudoplasty/slyudobumagi/"
+        }]
+    }]
+}

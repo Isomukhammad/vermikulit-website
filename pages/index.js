@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
 
       <div>
-        <Carousel info = {Data.main[0].mainCarousel} length = {6}/>
+        <Carousel info = {Data.main[0].mainCarousel} length = {6} heightValue = '400px'/>
       </div>
 
       <h1 className = {styles.title}>Наша продукция</h1>

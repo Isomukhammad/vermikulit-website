@@ -4,7 +4,7 @@ import ImageButtons from "../image-buttons/image-buttons.component";
 
 import styles from './carousel.module.scss';
 
-const Carousel = ({info, length}) => {
+const Carousel = ({info, length, heightValue}) => {
     const [number, setNumber] = useState(0);
 
     useEffect(() => {
@@ -29,20 +29,17 @@ const Carousel = ({info, length}) => {
 
     return(
         <div className={styles.div}>
-            <div className = {styles.imagesWrap}>
-                <div className = {styles.images}>                
+            <div className = {styles.imagesWrap} style = {{height: `${heightValue}`}}>
+                <div className = {styles.images} style = {{height: `${heightValue}`}}>                
                 {
                     info.map(img => (
                         <div className = {`${number != img.id ? `${styles.img}` : null} ${styles.opacity}`}
                         key = {img.id}>
                         <img 
                             src = {img.image}
-                            height = '400' 
-                            width = '1000'
+                            height = {heightValue} 
+                            width = '1000px'
                             alt = 'Carousel photo'
-                            objectFit="contain"
-                            placeholder="blurDataURL"
-                            priority = "true"
                             style = {{borderRadius: '1em'}}
                         />
                         </div>

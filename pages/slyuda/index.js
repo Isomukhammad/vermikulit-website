@@ -8,12 +8,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Products from '../../components/products/products.component';
 import Footer from '../../components/footer/footer.component';
+import TextImage from '../../components/text-image/text-image.component';
 
 const Slyuda = () => {
     return(
         <>
         <div className = {styles.div}>
-            <Carousel info = {Data.slyuda[0].slyudaCarousel} length = {17}/>
+            <Carousel info = {Data.slyuda[0].slyudaCarousel} length = {17} heightValue = {'300px'}/>
 
             <h1 className = {styles.title}>
                 Слюдяная фабрика выпускает материалы
@@ -32,7 +33,7 @@ const Slyuda = () => {
                 </ul>
 
                 <div className = {styles.list}>
-                    <Products info = {Main.slyuda[0].categories} styleName = {'slyuda'}/>
+                    <Products info = {Main.slyuda[0].categories} styleName = {'product-list'}/>
                 </div>
             </div>
 
@@ -52,23 +53,11 @@ const Slyuda = () => {
 
             <p>Слюда – уникальный природный диэлектрик, обладающий высокой электрической, химической, термической и механической прочностью. Слюду и изделия из слюды применяют в качестве электрической изоляции. В электрических машинах используют либо натуральную слюду, расщепленную на пластины, либо материалы, изготовленные из мелких чешуек слюды – слюдяную бумагу, слюдяные ленты, слюдопласты. Вспученную гидратированную слюду вермикулит применяют в самых разных отраслях хозяйства, от термоизоляции в строительстве до добавки в корм скоту в животноводстве.</p>
 
-            <div className = {styles.age}>
-                <Image
-                    src = '/assets/images/slyuda/slyuda-ad2.png'
-                    width = "1000"
-                    height = '300'
-                    alt = 'Information photo'
-                    objectFit="contain"
-                    placeholder="blurDataURL"
-                    style = {{borderRadius: '1em'}}
-                />
-
-                <div className= {styles.text}>
-                    <h3>
-                        Слюдяная фабрика – 90 лет опыта работы со слюдой!
-                    </h3>
-                </div>
-            </div>
+            <TextImage
+                image = {'/assets/images/slyuda/slyuda-ad2.png'}
+                heightValue = {'300'}
+                description = {'Слюдяная фабрика – 90 лет опыта работы со слюдой!'}
+            />
 
             <h2>Слюда мусковит и слюда флогопит</h2>
 

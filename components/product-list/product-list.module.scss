@@ -1,0 +1,14 @@
+.div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+
+    .title{
+        height: 100px;
+        padding: 1em;
+        border-bottom: 1px solid #d8d8d8;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
