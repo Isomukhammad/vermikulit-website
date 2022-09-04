@@ -14,14 +14,17 @@ const Navbar = () => {
         <>
         <div className = {styles.container}>
             <div className={styles.navbar}>
-                <Link href = '/'>
-                    <Image 
-                        src = '/assets/logo/logo.png' 
-                        width='134px' 
-                        height = '35px' 
-                        style = {{cursor: 'pointer'}}
-                    />
-                </Link>
+                <div className={styles.logoLink}>
+                    <Link href = '/'>
+                        <Image 
+                            src = '/assets/logo/logo.png' 
+                            width='134px' 
+                            height = '35px'
+                            objectFit="contain"
+                            style = {{cursor: 'pointer'}}
+                        />
+                    </Link>
+                </div>
                 <div className = {styles.categories}>
                     <Link href = '/slyuda'
                         onMouseOver={(e) => {setDropdown(true)}}
@@ -29,6 +32,7 @@ const Navbar = () => {
                     <Link href = '/slyudopasty'>Слюдопасты</Link>
                     <Link href = '/vermikulit'>Вермикулит</Link>
                     <Link href = '/agrovermikulit'>Агровермикулит</Link>
+                    <h3>+998 XX-XXX-XX-XX</h3>
                 </div>
                 {
                     dropdown == true ? <NavbarDropdown category = {category}/> : null
