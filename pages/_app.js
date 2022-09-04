@@ -7,8 +7,7 @@ function MyApp({ Component, pageProps }) {
   return( 
     <div className='main-container'>
       <Head>
-      {/* <meta id="viewport" name="viewport" content="width=1000px"/> */}
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta id="viewport" name="viewport" content="width=1000px"/>
       </Head>
       <Navbar/>
       <Component {...pageProps} />
