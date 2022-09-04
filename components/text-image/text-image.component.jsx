@@ -10,7 +10,7 @@ const TextImage = ({image, description, heightValue}) => {
                     width = '1000px'
                     height= {`${heightValue}`}
                     alt = 'Information photo'
-                    objectFit="contain"
+                    objectFit="cover"
                     style = {{borderRadius: '1em'}}
                 />
 
