@@ -2,7 +2,7 @@
 
 ### Website is currently in development
 
-## [Live Demo](vermikulit-website.vercel.app)
+## [Live Demo](https://vermikulit-website.vercel.app/)
 
 ### Screenshots
 
