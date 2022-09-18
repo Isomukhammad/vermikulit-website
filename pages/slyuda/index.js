@@ -1,3 +1,5 @@
+import Head from 'next/head'
+
 import Data from '../api/slyuda.json';
 import Main from '../api/data.json'
 

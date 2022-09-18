@@ -34,8 +34,7 @@ const Vermikulit = () => {
                 height = '723px'
                 alt = 'Vermikulit photo'
                 objectFit="contain"
-                placeholder="blurDataURL"
-                priority = "true"             
+                placeholder="blurDataURL"        
                 style = {{borderRadius: '2em'}}    
             />
 

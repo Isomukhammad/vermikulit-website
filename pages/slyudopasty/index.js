@@ -1,3 +1,5 @@
+import Head from 'next/head'
+
 import Data from '../api/slyudopasty.json';
 
 import ProductList from '../../components/product-list/product-list.component';
